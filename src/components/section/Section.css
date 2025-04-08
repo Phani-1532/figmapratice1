@@ -1,0 +1,38 @@
+.section-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+} 
+
+.section-content h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.section-content p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section-content button{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
