@@ -4,6 +4,8 @@ import './Grid.css'
 const Grid = () => {
   return (
     <>
+        <h1 className='grid-title'>Category</h1>
+        <p className='grid-subtitle'>We Offer Best Services</p>
         <div className='grid-container'>
             <div className='grid-item'>Search Engine Optimization</div>
             <div className='grid-item'>Pay-Per-Click</div>

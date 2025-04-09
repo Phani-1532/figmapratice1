@@ -8,15 +8,24 @@ const Header = () => {
             <div className = 'header'>
                 <nav className = 'nav-bar'>
                     <div className = 'logo'>
-                        <img src = 'https://via.placeholder.com/150' alt = 'Logo' />
+                        <h1>Jadoo</h1>
                     </div>
                     <ul className = 'nav'>
-                        <li className = 'nav-item'>About us</li>
-                        <li className = 'nav-item'>Services</li>
-                        <li className = 'nav-item'>Use Cases</li>
-                        <li className = 'nav-item'>Pricing</li>
-                        <li className = 'nav-item'>Blog</li>
-                        <li className = 'nav-item'><button className='btn'>Request a quote</button></li>
+                        <li className = 'nav-item'>Destinations</li>
+                        <li className = 'nav-item'>Hotels</li>
+                        <li className = 'nav-item'>Flights</li>
+                        <li className = 'nav-item'>Bookings</li>
+                        <li className = 'nav-item'>Login</li>
+                        <li className = 'nav-item'><button className='btn'>Sign up</button></li>
+                       
+                        
+                        <select id='language' className='lang'>
+                            <option value="en">EN</option>
+                            <option value="fr">FR</option>
+                            <option value="es">ES</option>
+                            <option value="de">DE</option>
+                        </select>
+                       
                         
                     </ul>
                 </nav>
