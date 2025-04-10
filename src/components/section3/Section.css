@@ -1,0 +1,78 @@
+.section3-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 250px;
+    margin-top: 130px;
+    
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.section3 p{
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    color: #5E6282;
+    display: flex;
+    align-items: flex-start;
+}
+
+.section3 h1{
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    color: #181E4B;
+}
+
+
+
+.section3 .actions .action{
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.actions{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.action-text{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+}
+
+.action-text h2{
+    font-size: 15px;
+    color: #5E6282;
+    font-weight: 800;
+
+}
+
+.action-text p{
+    font-size: 11px;
+    color: #5E6282;
+    font-weight: 600;
+    width: 220px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+

@@ -1,11 +1,33 @@
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px 150px;
     align-items: center;
     justify-items: center;
 }
+
+.grid-container-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 150px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-container-1 .grid-item-1{
+    background-color: #F9F9F9;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 h1{
     font-size: 16px;
@@ -26,16 +48,76 @@ p{
 }
 
 .grid-item{
-    background-color: #5cf654;
+   
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.grid-item{
-    font-size: 20px;
-    font-weight: 600;
+
+
+
+.grid-item p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5E6282;
+    margin-top: 5px;
+    width: 130px;
+    text-align: center;
+
+}
+.grid-item img{
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.grid-item h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E1D4C;
+    margin-bottom: 5px;
+}
+
+.grid-container-1 .grid-item-1 img {
+    width: 100px; /* Stretch image to card width */
+    height: 150px; /* Reduce height to something reasonable */
+    object-fit: cover; /* Maintain aspect ratio, fill the box */
+    margin-bottom: 0px; /* Already good */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Add this to tighten up spacing */
+.grid-container-1 .grid-item-1 .desc {
+    margin-top: 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.desc h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E1D4C;
+    margin-bottom: 5px;
+}
+.desc p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5E6282;
+    margin-top: 5px;
+    width: 130px;
+    text-align: center;
+
+}
+
