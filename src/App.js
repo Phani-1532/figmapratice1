@@ -3,6 +3,8 @@ import Header from './components/header/Header'
 import Section from './components/section/Section'
 import Grid from './components/grids/Grid'
 import Section3 from './components/section3/Section3'
+import Section4 from './components/section4/Section4'
+import Section5 from './components/section5/Section5'
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <Section />
       <Grid  />
       <Section3 />
+      <Section4 />
+      <Section5 />
       
       
     </>
