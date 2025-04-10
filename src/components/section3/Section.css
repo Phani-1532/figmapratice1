@@ -13,6 +13,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 5px;
+    
 }
 
 .section3 p{
@@ -75,4 +76,77 @@
     align-items: flex-start;
     text-align: left;
 }
+
+.section3-image{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.section3-image-text h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section3-image-text p{
+    font-size: 18px;
+    line-height: 10px;
+    margin-bottom: 15px;
+    color: #84829A;
+    display: flex;
+    align-items: flex-start;
+}
+
+.section3-image-button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.section3-image-button img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  
+}
+
+.section3-image-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section3-image-price img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.section3-image-price h2{
+    font-size: 18px;
+    color: #84829A;
+    
+}
+
+.section3-image-content{
+    display: flex;
+    gap: 90px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
