@@ -5,6 +5,7 @@ import Grid from './components/grids/Grid'
 import Section3 from './components/section3/Section3'
 import Section4 from './components/section4/Section4'
 import Section5 from './components/section5/Section5'
+import Section6 from './components/section6/Section6'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6 />
       
       
     </>

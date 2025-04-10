@@ -1,0 +1,46 @@
+.section6-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 20px 150px ;
+}
+
+.section6-container h1{
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.section6-container .input{
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.section6-container .input input{
+    width: 300px;
+    padding: 14px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.section6-container .input button{ 
+    background-color: #DF6951;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

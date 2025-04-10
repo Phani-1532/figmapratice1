@@ -1,7 +1,7 @@
 import React from 'react'
 import './Section.css'
 import Traveller from '../../assets/Traveller 1.png'
-import Polygon from '../../assets/Ellipse 8.png'
+import Play from '../../assets/Play button.png'
 
 const Section = () => {
   return (
@@ -14,16 +14,18 @@ const Section = () => {
               and live a new <br />
               and full life</p>
             <p className='section-description'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-            <button className='btn'>Find out more</button>
-          </div>
+            <div className='section-buttons'>
+              <button className='btn'>Find out more</button>
+              <img src={Play} alt='' />
+              <p>Play More</p>
+            </div>          </div>
           <div className='section-image-container'>
-          <div className='section-image'>
-            <img src={Traveller} alt='Section Image' />
-           
+            <div className='section-image'>
+              <img src={Traveller} alt='Section Image' />
+            </div>
+
           </div>
-         
-          </div>
-         
+
         </div>
       </section>
     </>
