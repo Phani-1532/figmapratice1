@@ -5,6 +5,7 @@
     padding: 20px 150px;
     align-items: center;
     justify-items: center;
+    margin-bottom: 100px;
 }
 
 .grid-container-1{
@@ -73,10 +74,26 @@ p{
 
 }
 .grid-item img{
-    width: 30px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.grid-item:nth-child(2) img{
+    width: 90px; /* Stretch image to card width */
+    height: 72px; /* Reduce height to something reasonable */
+    object-fit: cover; /* Maintain aspect ratio, fill the box */
+    margin-bottom: 0px; /* Already good */
+    
+}
+
+.grid-item:nth-child(3) img{
+    width: 35px; /* Stretch image to card width */
+    height: 60px; /* Reduce height to something reasonable */
+    object-fit: cover; /* Maintain aspect ratio, fill the box */
+    margin-bottom: 0px; /* Already good */
+    
 }
 
 .grid-item h2{
