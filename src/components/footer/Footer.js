@@ -1,12 +1,17 @@
 import React from 'react'
 import './Footer.css'
+import Facebook from '../../assets/facebook.png'
+import Instagram from '../../assets/insta.png'
+import Twitter from '../../assets/twitter.png'
+import GooglePlay from '../../assets/Google Play.png'
+import AppStore from '../../assets/Play Store.png'
 
 const Footer = () => {
     return (
         <>
             <div className="footer">
                 <div className='footer-1'>
-                    <h1>Jadoo</h1>
+                    <h1>Jadoo.</h1>
                     <p>Book your trip in minute, get full Control for much longer.</p>
                 </div>
                 <div className='footer-2'>
@@ -42,16 +47,16 @@ const Footer = () => {
                 </div>
                 <div className='footer-5'>
                 <div className='footer-5-1'>
-                    <img src='' alt='' />
-                    <img src='' alt='' />
-                    <img src='' alt='' />
+                    <img src={Facebook} alt='' />
+                    <img src={Instagram} alt='' />
+                    <img src={Twitter} alt='' />
                     </div>
                     <div className='footer-5-2'>
                         <p>Discover our app</p>
                     </div>
                     <div className='footer-5-3'>
-                        <img src='' alt='' />
-                        <img src='' alt='' />
+                        <img src={GooglePlay} alt='' />
+                        <img src={AppStore} alt='' />
                     </div>
                 </div>
             </div>
